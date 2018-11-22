@@ -26,6 +26,19 @@ namespace Tiler
 
         }
 
+        public Vector2 Position
+        {
+            get
+            {
+                return position;
+            }
+            set
+            {
+                position = value;
+            }
+            
+        }
+
         public TilePlayer(Texture2D tx,
             Vector2 startPos)
         {
