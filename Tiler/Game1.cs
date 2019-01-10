@@ -68,7 +68,7 @@ namespace Tiler
         {
             // TODO: Add your initialization logic here
             WorldSize = new Vector2(tileWidth * tileMap.GetLength(1), tileHeight * tileMap.GetLength(0));
-            new Camera(this, WorldSize, Vector2.Zero);
+            new Camera(this, Vector2.Zero, WorldSize);
             base.Initialize();
         }
 
